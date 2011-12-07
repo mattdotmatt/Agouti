@@ -1,4 +1,7 @@
 Agouti - HtmlUnit in .Net
 Runs HtmlUnit headless web browser in .Net.
 
-Based on Matt Longworth's original work, but updated to work with the latest version of HtmlUnit (2.9).
+Based on Matt Longworth's original work, but updated to work with the latest version of HtmlUnit (2.9) 
+and removing some solution specific stuff.
+
+Matt Longworth works here: http://www.level-b.co.uk/
