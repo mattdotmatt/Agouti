@@ -1,7 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Agouti", "Agouti.csproj", "{EBD0A9C4-3C93-4391-91EC-C6D1C47A014A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Agouti", "Agouti\Agouti.csproj", "{EBD0A9C4-3C93-4391-91EC-C6D1C47A014A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Agouti.Tests", "Agouti.Tests\Agouti.Tests.csproj", "{1DD35536-77C5-41BD-BF16-60B77B085F45}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Agouti.Utilities", "Agouti.Utilities\Agouti.Utilities.csproj", "{45851155-1AD4-45E3-B11C-7B7AEC78738C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,6 +17,14 @@ Global
 		{EBD0A9C4-3C93-4391-91EC-C6D1C47A014A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EBD0A9C4-3C93-4391-91EC-C6D1C47A014A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EBD0A9C4-3C93-4391-91EC-C6D1C47A014A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1DD35536-77C5-41BD-BF16-60B77B085F45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1DD35536-77C5-41BD-BF16-60B77B085F45}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1DD35536-77C5-41BD-BF16-60B77B085F45}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1DD35536-77C5-41BD-BF16-60B77B085F45}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45851155-1AD4-45E3-B11C-7B7AEC78738C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45851155-1AD4-45E3-B11C-7B7AEC78738C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45851155-1AD4-45E3-B11C-7B7AEC78738C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45851155-1AD4-45E3-B11C-7B7AEC78738C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
