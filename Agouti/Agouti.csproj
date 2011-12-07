@@ -37,6 +37,9 @@
     <Reference Include="IKVM.OpenJDK.Core">
       <HintPath>..\ExternalReferences\IKVM.OpenJDK.Core.dll</HintPath>
     </Reference>
+    <Reference Include="IKVM.OpenJDK.Security">
+      <HintPath>..\ExternalReferences\IKVM.OpenJDK.Security.dll</HintPath>
+    </Reference>
     <Reference Include="IKVM.OpenJDK.Text">
       <HintPath>..\ExternalReferences\IKVM.OpenJDK.Text.dll</HintPath>
     </Reference>

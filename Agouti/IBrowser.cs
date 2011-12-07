@@ -10,6 +10,7 @@ namespace Agouti
     public interface IBrowser : IDisposable
     {
         void Visit(string url);
+        void VisitAjax(string url);
 
         void ShouldHaveTitle(string testPageContent);
 
@@ -50,7 +51,7 @@ namespace Agouti
 
         void ShouldBeAtUrlIgnoringQuerystring(string expectedUrl);
 
-        void Click(XPathSelector addSiteButton);
+        void Click(XPathSelector clickableXPath);
 
         string CurrentPageUrl { get;}
         int CurrentPageHttpCode { get; }
@@ -59,6 +60,7 @@ namespace Agouti
         IEnumerable<XmlNode> Select(XPathSelector selector);
         string Download(XPathSelector selector);
         void ShouldEventually(Func<IBrowser, int, bool> task, int timesToRetry, int millisecondDelay);
-        
+
+        int WaitForBackgroundJavaScript(int millisecondDelay);        
     }
 }
